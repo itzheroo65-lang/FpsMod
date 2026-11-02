@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsmod",
+  "version": "1.0.0",
+  "name": "FPS Locator",
+  "description": "/fps command shows coordinates, distance and direction of all players.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.fpsmod.FpsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
